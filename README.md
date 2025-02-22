@@ -1,0 +1,3 @@
+# Out-of-bounds Array Access in Assembly
+
+This repository demonstrates a common error in assembly programming: accessing elements outside the bounds of an array.  The code attempts to read and write to memory locations that are not allocated to the array, which can lead to program crashes, unexpected behavior, or even security vulnerabilities if an attacker is able to manipulate the array indices to gain unauthorized memory access. The provided solution shows how to properly check array indices before accessing array elements to avoid out-of-bounds access errors.
